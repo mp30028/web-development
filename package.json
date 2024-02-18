@@ -1,0 +1,16 @@
+{
+  "name": "cmuto09.github.io",
+  "version": "1.0.0",
+  "description": "A demo of how to preview static sites using Codespaces",
+  "repository": "https://github.com/cmuto09/cmuto09.github.io",
+  "author": "cmuto09 <cmuto09@github.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "static-server": "^2.2.1",
+    "nodemon": "^2.0.20"
+  },
+  "scripts": {
+    "start": "nodemon --exec static-server -p 8080 -e html"
+  }
+}
